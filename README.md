@@ -7,7 +7,7 @@ Since G and T base pairs are outside the hexadecimal colour range (0-9 and A-F),
 In the future, an R script takes in a CSV of these values and outputs an R package you could include in your next R project file. Still working on this part.  
   
 ## Example I/O  
-Pass import_fasta.py a FASTA file.  
+Pass <pre><code>import_fasta.py</code></pre> a FASTA file.  
   
 Counted base pairs:  
 A = 1224, C = 6212, G = 782, T = 2825  
@@ -18,4 +18,4 @@ Output:
 7D2E1A  
 2E1A6C  
   
-Run create_palette.R to get an R Package of these hexadecimal colours.
+Run <pre><code>create_palette.R</code></pre> to get an R Package of these hexadecimal colours.
