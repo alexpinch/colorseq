@@ -9,8 +9,10 @@ The converted base pair counts are cycled to create 4 hexadecimal colour codes.
 
 **Example I/O**  
 Pass import_fasta.py a FASTA file.  
+  
 Counted base pairs:  
 A = 1224, C = 6212, G = 782, T = 2825  
+  
 Output:  
 1A6C7D  
 6C7D2E  
