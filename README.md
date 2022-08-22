@@ -1,4 +1,4 @@
-# fasta-colours
+# FASTA-colours
 A tool that creates an R colour palette from the counted base pairs of a given FASTA file. Use-cases include when you're a nerd about graphs and figures, or when you've run out of anything else to say about your poster.  
   
 ## How it works  
