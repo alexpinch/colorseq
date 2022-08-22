@@ -48,7 +48,7 @@ else:
 hex_colours = [str(A_counter)+"A"+str(G_counter)+"B"+str(C_counter)+"C", str(G_counter)+"B"+str(C_counter)+"C"+str(T_counter)+"D", str(C_counter)+"C"+str(T_counter)+"D"+str(A_counter)+"A", str(T_counter)+"D"+str(A_counter)+"A"+str(G_counter)+"B"]
 print(hex_colours)
 
-outputFileName=fastaName+"hex_colours.csv"
+outputFileName=fastaName+"_hex_colours.csv"
 # Saves hexadecimal values to a .csv
 file = open(outputFileName, 'w')
 writer = csv.writer(file)
