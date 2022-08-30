@@ -1,11 +1,11 @@
 # FASTA-colours
-A tool that creates an R colour palette from the counted base pairs of a given FASTA file. Use-cases include when you're a nerd about graphs and figures, or when you've run out of anything else to say about your poster.  
+A script that creates a list of hexadecimal colour codes from the counted base pairs of a given FASTA file. These values can be imported into R as a palette for use in your future plots and figures.  
   
 ## How it works  
-Since bases G and T are outside the hexadecimal colour range (0-9 and A-F), they are converted to the nearest accepted alphabetical characaters. Therefore, G becomes D and T becomes E. Base pair counts are truncated so that only the first digit is kept. The converted base pair counts are then cycled to create 4 hexadecimal colour codes, outputted to a CSV.   
+Since bases G and T are outside the hexadecimal colour range (0-9 and A-F), they are converted to the nearest alphabetic characaters. Therefore, G becomes D and T becomes E. Base pair counts are truncated so that only the first digit is kept. The converted base pair counts are then cycled to create 4 hexadecimal colour codes, outputted to a CSV.   
 
 ## Example I/O  
-Pass import_fasta.py a FASTA file.  
+Run the Python script 'FASTA_colours.py', and input your FASTA file.  
   
 Counted base pairs:  
 A = 1224, C = 6212, G = 782, T = 2825  
