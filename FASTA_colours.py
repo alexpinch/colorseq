@@ -2,7 +2,7 @@ from Bio import SeqIO
 import math, csv
 
 # User passes a FASTA file, counts the base pairs
-fastaName = input("Enter your FASTA file name (do not include .fasta): ")
+fastaName = input("Enter your FASTA file name (do not include extension .fasta): ")
 fastaDirectory=fastaName + ".fasta"
 inputFileName=fastaDirectory
 seqObject = SeqIO.read(inputFileName,"fasta")
