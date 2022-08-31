@@ -11,7 +11,7 @@ import math, csv
 import matplotlib.pyplot as plt
 from matplotlib.patches import Rectangle
 ```  
-## Example I/O    
+## Example    
 Run ```main.py```, and input the directory to your FASTA file.  
   
 ```
