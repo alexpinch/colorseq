@@ -24,5 +24,6 @@ Output:
 ```  
   
 You can find the CSV hex codes in your home directory, saved as ```FASTA_hex_colours.csv```  
+The script also outputs a plot showcasing the palette, which you can save for future reference.    
   
 <img align="center" src="https://raw.githubusercontent.com/alexpinch/FASTA-colours/main/example_data/example_palette.png" width=500/>  
