@@ -16,6 +16,9 @@ for record in SeqIO.parse(inputFileName, "fasta"):
     C_counter += record.seq.count('C')
     T_counter += record.seq.count('T')
 
+print("Counted base pairs: ")
+print("A = " + str(A_counter) + ", C = " + str(C_counter) + ", G = " + str(G_counter) + ", T = " + str(T_counter))
+
 # Keeps the counts under 10, truncates the decimal into a whole number (example: 32 A's becomes 3, 256 becomes 2, 1024 becomes 1)
 if A_counter < 100:
     A_counter = math.trunc(A_counter / 10)
@@ -47,6 +50,7 @@ else:
 
 # Since G and T are outside the hexadecimal range, G is converted to C and T is converted to D
 hex_colours = ["#"+str(A_counter)+"A"+str(G_counter)+"B"+str(C_counter)+"C", "#"+str(G_counter)+"B"+str(C_counter)+"C"+str(T_counter)+"D", "#"+str(C_counter)+"C"+str(T_counter)+"D"+str(A_counter)+"A", "#"+str(T_counter)+"D"+str(A_counter)+"A"+str(G_counter)+"B"]
+print("Output: ")
 print(hex_colours)
 
 outputFileName="FASTA_hex_colours.csv"
