@@ -1,5 +1,7 @@
 from Bio import SeqIO
 import math, csv
+import matplotlib.pyplot as plt
+from matplotlib.patches import Rectangle
 
 # User passes a FASTA file, counts the base pairs
 fastaName = input("Enter your FASTA file name (do not include extension .fasta): ")
@@ -54,3 +56,17 @@ file = open(outputFileName, 'w')
 writer = csv.writer(file)
 writer.writerow(hex_colours)
 file.close()
+
+# Generate a palette image of the hexadecimal colour set.
+X, Y = 0.0, 0.0
+fig,ax = plt.subplots()
+currentAxis = plt.gca()
+currentAxis.add_patch(Rectangle((X, Y), 0.25, 1,
+                      alpha=1, facecolor=hex_colours[0]))
+currentAxis.add_patch(Rectangle((X+0.25, Y), 0.25, 1,
+                      alpha=1, facecolor=hex_colours[1]))
+currentAxis.add_patch(Rectangle((X+0.50, Y), 0.25, 1,
+                      alpha=1, facecolor=hex_colours[2]))
+currentAxis.add_patch(Rectangle((X+0.75, Y), 0.25, 1,
+                      alpha=1, facecolor=hex_colours[3]))
+plt.show()
