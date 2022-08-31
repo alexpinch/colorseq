@@ -15,13 +15,10 @@ from matplotlib.patches import Rectangle
 ## Example I/O  
 Run the Python script 'FASTA_colours.py', and input the directory to your FASTA file.  
   
-Counted base pairs:  
-A = 1224, C = 6212, G = 782, T = 2825  
-  
+Counted base pairs:   
+A = 787, C = 621, G = 566, T = 783  
+
 Output:  
-1A6C7D  
-6C7D2E  
-7D2E1A  
-2E1A6C  
+'#7A5B6C', '#5B6C7D', '#6C7D7A', '#7D7A5B'  
   
 <img align="left" src="https://raw.githubusercontent.com/alexpinch/FASTA-colours/main/example_data/example_palette.png" width=500/>  
