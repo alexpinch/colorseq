@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 from matplotlib.patches import Rectangle
 ```  
 ## Example    
-Run ```main.py```, and input the directory to your FASTA file.
+Run ```main.py```, and input the directory to your FASTA file.  
 If using the example FASTA file, this should output:  
   
 ```
