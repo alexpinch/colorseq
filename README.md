@@ -24,4 +24,4 @@ Output:
 7D2E1A  
 2E1A6C  
   
-<img align="left" src="https://raw.githubusercontent.com/alexpinch/FASTA-colours/main/example_data/example_palette.png" width=200/>  
+<img align="left" src="https://raw.githubusercontent.com/alexpinch/FASTA-colours/main/example_data/example_palette.png?token=GHSAT0AAAAAABQ5KRMYJ6MPJMHDN3KG3TKCYYO2Q2Q" width=200/>  
