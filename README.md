@@ -12,7 +12,8 @@ import matplotlib.pyplot as plt
 from matplotlib.patches import Rectangle
 ```  
 ## Example    
-Run ```main.py```, and input the directory to your FASTA file.  
+Run ```main.py```, and input the directory to your FASTA file.
+If using the example FASTA file, this should output:  
   
 ```
 Counted base pairs:   
@@ -22,6 +23,6 @@ Output:
 '#7A5B6C', '#5B6C7D', '#6C7D7A', '#7D7A5B'  
 ```  
   
-```FASTA_hex_colours.csv``` is saved to your home directory.  
+You can find the CSV hex codes in your home directory, saved as ```FASTA_hex_colours.csv```  
   
 <img align="center" src="https://raw.githubusercontent.com/alexpinch/FASTA-colours/main/example_data/example_palette.png" width=500/>  
