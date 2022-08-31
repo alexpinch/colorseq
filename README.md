@@ -13,7 +13,7 @@ from matplotlib.patches import Rectangle
 ```  
 
 ## Example I/O  
-Run the Python script 'FASTA_colours.py', and input your FASTA file.  
+Run the Python script 'FASTA_colours.py', and input the directory to your FASTA file.  
   
 Counted base pairs:  
 A = 1224, C = 6212, G = 782, T = 2825  
