@@ -24,3 +24,4 @@ Output:
 7D2E1A  
 2E1A6C  
   
+<img align="left" src="https://raw.githubusercontent.com/alexpinch/FASTA-colours/main/examples/example_palette.png" width=200/>  
