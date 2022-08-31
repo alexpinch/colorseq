@@ -16,7 +16,7 @@ from matplotlib.patches import Rectangle
 Run the ```main.py```, and input the directory to your FASTA file.  
 
 Counted base pairs:   
-A = 787, C = 621, G = 566, T = 783  
+A = 787, G = 566, C = 621, , T = 783  
 
 Output:  
 '#7A5B6C', '#5B6C7D', '#6C7D7A', '#7D7A5B'  
