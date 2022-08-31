@@ -6,7 +6,6 @@ from matplotlib.patches import Rectangle
 # User passes a FASTA file, counts the base pairs
 fastaDirectory = input("Enter the directory to your FASTA file: (include extension .fasta): ")
 inputFileName=fastaDirectory
-fastaName=fastaDirectory[]
 seqObject = SeqIO.read(inputFileName,"fasta")
 sequence=seqObject.seq
 length=len(sequence)
