@@ -47,7 +47,7 @@ else:
     T_counter = math.trunc(T_counter / 1000)
 
 # Since G and T are outside the hexadecimal range, G is converted to C and T is converted to D
-hex_colours = [str(A_counter)+"A"+str(G_counter)+"B"+str(C_counter)+"C", str(G_counter)+"B"+str(C_counter)+"C"+str(T_counter)+"D", str(C_counter)+"C"+str(T_counter)+"D"+str(A_counter)+"A", str(T_counter)+"D"+str(A_counter)+"A"+str(G_counter)+"B"]
+hex_colours = ["#"+str(A_counter)+"A"+str(G_counter)+"B"+str(C_counter)+"C", "#"+str(G_counter)+"B"+str(C_counter)+"C"+str(T_counter)+"D", "#"+str(C_counter)+"C"+str(T_counter)+"D"+str(A_counter)+"A", "#"+str(T_counter)+"D"+str(A_counter)+"A"+str(G_counter)+"B"]
 print(hex_colours)
 
 outputFileName=fastaName+"_hex_colours.csv"
