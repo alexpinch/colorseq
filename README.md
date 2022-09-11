@@ -4,14 +4,7 @@ FASTA colours is a fun and simple Python script that creates a list of hexadecim
 ## How it works  
 Based G and T are converted to the nearest alphabetical characters in the hexadecimal range (0-9, A-F), G and T are replaced with D and E respectively. Base pair counts are truncated so that only the first digit is kept. The converted base pair counts are then cycled to create 4 hexadecimal colour codes, and outputted to a CSV in your home directory.
 
-## Dependencies  
-```python
-from Bio import SeqIO
-import math, csv
-import matplotlib.pyplot as plt
-from matplotlib.patches import Rectangle
-```  
-## Example    
+## How to run    
 Run ```main.py```, and input the directory to your FASTA file.  
 If using the example FASTA file, this should output:  
   
@@ -27,3 +20,11 @@ You can find the CSV hex codes in your home directory, saved as ```FASTA_hex_col
 The script also outputs a plot showcasing the palette. If using the example FASTA file, this should output:  
   
 <img align="center" src="https://raw.githubusercontent.com/alexpinch/FASTA-colours/main/example_data/example_palette.png" width=500/>  
+
+## Dependencies  
+```python
+from Bio import SeqIO
+import math, csv
+import matplotlib.pyplot as plt
+from matplotlib.patches import Rectangle
+```  
