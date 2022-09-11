@@ -2,7 +2,7 @@
 FASTA colours is a fun and simple Python script that creates a list of hexadecimal colour codes from the counted base pairs of a given FASTA file. These values can be imported into R as a colour palette for plotting figures.  
 
 ## How it works  
-Since bases G and T are outside the hexadecimal colour range (0-9 and A-F), they are converted to the nearest alphabetic characaters (G=D, T=E). Base pair counts are truncated so that only the first digit is kept. The converted base pair counts are then cycled to create 4 hexadecimal colour codes, and outputted to a CSV in your home directory.
+Based G and T are converted to the nearest alphabetical characters in the hexadecimal range (0-9, A-F), G and T are replaced with D and E respectively. Base pair counts are truncated so that only the first digit is kept. The converted base pair counts are then cycled to create 4 hexadecimal colour codes, and outputted to a CSV in your home directory.
 
 ## Dependencies  
 ```python
