@@ -1,4 +1,4 @@
-# FASTA Colours 🧬🎨
+# FASTA Colours
 FASTA Colours is a fun and simple Python script that creates a list of hexadecimal colour codes from the counted base pairs of a given FASTA file. These values can be imported into R as a colour palette for plotting figures.  
 
 ## How it works  
@@ -28,3 +28,4 @@ import math, csv
 import matplotlib.pyplot as plt
 from matplotlib.patches import Rectangle
 ```  
+## 🧬🎨
